@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FCF6F5;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+}
+
+.navigation {
+    background-color: #990011;
+    box-sizing: border-box;
+    overflow-y: auto;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 4px solid #000000;
+}
+
+.navigation ul li {
+    display: inline;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #FCF6F5;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 25px;
+}
+
+.navigation a:hover {
+    color: #97BC62;
+}
+
+p {
+    font-size: 1.3rem;
+    color: #FFFFFF;
+}
+
+h1,
+h2 {
+    margin: 15px;
+}
+
+.border {
+    border: 1px solid #000000;
+    margin: 15px;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 15px;
+    grid-column-gap: 15px;
+}
+
+.first-row {
+    border: 1px solid #000000;
+    border-bottom: transparent;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    height: 150px;
+    padding: 10px;
+}
+
+.second-row {
+    border: 1px solid #000000;
+    border-bottom: transparent;
+    border-top: transparent;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    height: 150px;
+    padding: 10px;
+}
+
+.third-row {
+    border: 1px solid #000000;
+    border-top: transparent;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    height: 150px;
+    padding: 10px;
+}
+
+#box1 {
+    background-color: #B85042
+}
+
+#box4 {
+    background-color: #E7E8D1;
+}
+
+#box7 {
+    background-color: #A7BEAE;
+}
+
+#box2 {
+    color: #E7E8D1;
+    background-color: #330000;
+}
+
+#box5 {
+    background-color: #73605B;
+}
+
+#box8 {
+    background-color: #D09683;
+}
+
+#box3 {
+    color: #E7E8D1;
+    background-color: #46211A;
+}
+
+#box6 {
+    background-color: #A43820;
+}
+
+#box9 {
+    background-color: #F1D3B2;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 15px;
+    grid-column-gap: 15px;
+}
+
+.column {
+    border: 1px solid #000000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    height: 320px;
+    padding: 10px;
+}
+
+#column1 {
+    font-family: Lato;
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+}
+
+#column2 {
+    font-family: Poppins;
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+}
+
+#column3 {
+    font-family: Nunito Sans;
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+}
+
+.h1 {
+    color: #000000;
+    margin-left: 15px;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+}
+
+.h2 {
+    color: #000000;
+    margin-left: 15px;
+    font-family: Lato;
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+}
+
+.p2 {
+    color: #000000;
+    margin-left: 15px;
+    font-family: Nunito Sans;
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+}
+
+#column4 {
+    margin: 15px;
+    padding: 15px;
+
+}
