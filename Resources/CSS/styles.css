@@ -90,7 +90,7 @@ h2 {
 }
 
 #box1 {
-    background-color: #B85042
+    background-color: #B85042;
 }
 
 #box4 {
@@ -192,4 +192,23 @@ h2 {
     margin: 15px;
     padding: 15px;
 
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .border {
+        max-width: 100%;
+    }
+    .grid1 {
+        grid-template-columns: auto;
+        }
+    .grid2 {
+        grid-template-columns: auto;
+    }
+    
+    .column {
+        height: 500px;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
 }
